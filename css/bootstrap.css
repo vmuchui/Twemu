@@ -578,10 +578,10 @@ pre code {
 
 .container-fluid {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  padding-right: 70px;
+  padding-left: 70px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .row {
@@ -4447,11 +4447,7 @@ input[type="button"].btn-block {
   -ms-flex-preferred-size: auto;
   flex-basis: auto;
 }
-.kichwa{
-  width: 300px;
-  text-align: center;
-  background-color: #F4A460;
-}
+
 
 .navbar-expand .navbar-toggler {
   display: none;
@@ -4590,6 +4586,8 @@ input[type="button"].btn-block {
 
 .card-title {
   margin-bottom: 0.75rem;
+  font-weight: bold;
+  color: #006400;
 }
 
 .card-subtitle {
@@ -4597,7 +4595,10 @@ input[type="button"].btn-block {
   margin-bottom: 0;
 }
 
-.card-text:last-child {
+.card-text{
+  font-family: 'Tangerine', cursive;
+  font-size: 30px;
+  font-weight: 600;
   margin-bottom: 0;
 }
 
@@ -4930,7 +4931,20 @@ input[type="button"].btn-block {
   border-top-right-radius: 0.2rem;
   border-bottom-right-radius: 0.2rem;
 }
-
+.twemu{
+    background-color: #F4A460;
+    width: 400px;
+    margin-left: 350px;
+}
+#slogan{
+  font-family: 'Indie Flower', cursive;
+font-size: 25px;
+}
+#paragraph{
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  text-align: center;
+}
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -5088,9 +5102,16 @@ a.badge-dark:focus, a.badge-dark.focus {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
 }
-
+.menu{
+  font-size: 32px;
+  text-decoration: underline;
+  color: #800000;
+  font-family: 'Baloo Chettan', cursive;
+  text-align: center;
+}
 .jumbotron {
   padding: 4px 4px;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   background-color: 	#FF7F50;
   border-radius: 0.3rem;
