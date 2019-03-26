@@ -1,0 +1,29 @@
+body{
+  background-image: url(https://i.pinimg.com/236x/28/b3/9f/28b39fecd3640529e884bf737d482200--baroque-backdrops.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+h2{
+  font-family: 'Righteous', cursive;
+  text-align: justify;
+}
+#contact{
+  background-color: #FFB6C1;
+}
+#about{
+  background-color: #DDA0DD;
+}
+#social{
+  background-color: #B0E0E6;
+}
+#para{
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 14px;
+  text-align: left;
+}
+.card-group{
+margin-top: 50px;
+margin-bottom: 40px;
+opacity: 0.8;
+}
