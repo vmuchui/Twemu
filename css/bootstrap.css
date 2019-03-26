@@ -4932,9 +4932,10 @@ input[type="button"].btn-block {
   border-bottom-right-radius: 0.2rem;
 }
 .twemu{
-    background-color: #F4A460;
+    background-color: #F08080;
     width: 400px;
     margin-left: 350px;
+    font-family: 'Monoton', cursive;
 }
 #slogan{
   font-family: 'Indie Flower', cursive;

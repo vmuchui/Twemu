@@ -2,6 +2,7 @@ body{
   background-image: url(https://i.pinimg.com/236x/28/b3/9f/28b39fecd3640529e884bf737d482200--baroque-backdrops.jpg);
   background-repeat: repeat;
   background-attachment: fixed;
+  overflow-x: hidden;
 }
 h2{
   font-family: 'Righteous', cursive;
@@ -21,6 +22,12 @@ h2{
   padding-right: 7px;
   font-size: 14px;
   text-align: left;
+}
+#image{
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+  margin-top: -50px;
 }
 .card-group{
 margin-top: 50px;
